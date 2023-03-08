@@ -30,13 +30,19 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <form class="d-flex ms-auto w-50" role="search">
+            <form
+              class="d-flex ms-auto w-50 position-relative align-items-center"
+              role="search"
+            >
               <input
-                class="form-control rounded-pill me-2"
+                class="form-control rounded-pill me-2 bg-dark-subtle"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
               />
+              <i
+                class="fa-solid fa-magnifying-glass position-absolute end-0 me-4 text-white"
+              ></i>
             </form>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -95,10 +101,12 @@
           </div>
           <div class="carousel-inner slider-bg rounded-4 px-5 py-5">
             <div class="carousel-item active">
-              <div class="d-flex align-items-center">
-                <div class="slider-text w-100">
+              <div
+                class="d-flex align-items-center flex-column-reverse flex-md-row"
+              >
+                <div class="slider-text text-center text-md-start w-100">
                   <h1 class="fs-1 fw-bolder">Mi LED TV 4A PRO 32</h1>
-                  <p class="fw-normal mt-3 mb-4 pe-5">
+                  <p class="fw-normal mt-3 mb-4 pe-md-5">
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor
                     do amet sint. Velit officia consequat duis enim velit
                     mollit. Exercitation veniam consequat sunt nostrud amet.
@@ -108,20 +116,23 @@
                     Buy Now <i class="fa-solid fa-arrow-right ms-2"></i>
                   </button>
                 </div>
-                <div class="slider-img">
+
+                <div class="slider-img d-flex justify-content-center">
                   <img
                     src="./images/banner-images/tv.png"
-                    class="w-75 float-end"
+                    class="w-75 float-md-end"
                     alt="..."
                   />
                 </div>
               </div>
             </div>
             <div class="carousel-item">
-              <div class="d-flex align-items-center">
-                <div class="slider-text w-100">
+              <div
+                class="d-flex align-items-center flex-column-reverse flex-md-row"
+              >
+                <div class="slider-text text-center text-md-start w-100">
                   <h1 class="fs-1 fw-bolder">Mi LED TV 4A PRO 32</h1>
-                  <p class="fw-normal mt-3 mb-4 pe-5">
+                  <p class="fw-normal mt-3 mb-4 pe-md-5">
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor
                     do amet sint. Velit officia consequat duis enim velit
                     mollit. Exercitation veniam consequat sunt nostrud amet.
@@ -131,20 +142,22 @@
                     Buy Now <i class="fa-solid fa-arrow-right ms-2"></i>
                   </button>
                 </div>
-                <div class="slider-img">
+                <div class="slider-img d-flex justify-content-center">
                   <img
                     src="./images/banner-images/xbox.png"
-                    class="w-75 float-end"
+                    class="w-75 float-md-end"
                     alt="..."
                   />
                 </div>
               </div>
             </div>
             <div class="carousel-item">
-              <div class="d-flex align-items-center">
-                <div class="slider-text w-100">
+              <div
+                class="d-flex align-items-center flex-column-reverse flex-md-row"
+              >
+                <div class="slider-text text-center text-md-start w-100">
                   <h1 class="fs-1 fw-bolder">Mi LED TV 4A PRO 32</h1>
-                  <p class="fw-normal mt-3 mb-4 pe-5">
+                  <p class="fw-normal mt-3 mb-4 pe-md-5">
                     Amet minim mollit non deserunt ullamco est sit aliqua dolor
                     do amet sint. Velit officia consequat duis enim velit
                     mollit. Exercitation veniam consequat sunt nostrud amet.
@@ -154,10 +167,10 @@
                     Buy Now <i class="fa-solid fa-arrow-right ms-2"></i>
                   </button>
                 </div>
-                <div class="slider-img">
+                <div class="slider-img d-flex justify-content-center">
                   <img
                     src="./images/banner-images/headphone.png"
-                    class="w-75 float-end"
+                    class="w-75 float-md-end"
                     alt="..."
                   />
                 </div>
@@ -187,9 +200,9 @@
       <!-- slider section ends -->
       <!-- categories section starts -->
       <section class="container mt-5 mb-5">
-        <div class="row px-5">
+        <div class="row px-5 gy-3">
           <h1 class="mb-4">Categories</h1>
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-6 col-12">
             <div
               class="d-flex px-4 py-2 rounded-3 align-items-center justify-content-between bg-warning"
             >
@@ -197,7 +210,7 @@
               <img class="w-25" src="./images/categories/watch.png" alt="" />
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-6 col-12">
             <div
               class="d-flex px-4 py-2 rounded-3 align-items-center justify-content-between bg-danger"
             >
@@ -205,7 +218,7 @@
               <img class="w-25" src="./images/categories/bag.png" alt="" />
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-6 col-12">
             <div
               class="d-flex px-4 py-2 rounded-3 align-items-center justify-content-between bg-primary"
             >
@@ -223,7 +236,7 @@
             <h3 class="fw-bold">Shoes</h3>
             <a href="#" class="nav-link text-warning">See All</a>
           </div>
-          <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
             <div class="col">
               <div class="card rounded-3 border-0 h-100">
                 <img
@@ -295,7 +308,7 @@
             <h3 class="fw-bold">Backpacks</h3>
             <a href="#" class="nav-link text-warning">See All</a>
           </div>
-          <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
             <div class="col">
               <div class="card rounded-3 border-0 h-100">
                 <img
@@ -362,6 +375,34 @@
         </div>
       </section>
     </main>
+    <footer>
+      <div class="container slider-bg mt-5 rounded-4 py-5 mb-5">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-center">
+              <h1 class="fw-bold text-uppercase">Let`s Stay In Touch</h1>
+              <p>Get updates on sales specials and more</p>
+              <div class="input-group mb-3 w-50 ms-auto me-auto">
+                <input
+                  type="email"
+                  class="form-control py-3 fw-semibold"
+                  placeholder="Enter Your Email"
+                  aria-label="Enter Your Email"
+                  aria-describedby="button-addon2"
+                />
+                <button
+                  class="btn btn-danger px-5"
+                  type="button"
+                  id="button-addon2"
+                >
+                  Send
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="./css/bootstrap/bootstrap.min.js"></script>
   </body>
 </html>
